@@ -1,0 +1,167 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shivam | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <a href="#" class="logo">Shivam<span>.</span></a>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <button id="themeToggle" aria-label="Toggle theme">☀️</button>
+                <button class="menu-btn" id="menuBtn" aria-label="Toggle navigation">☰</button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Home -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <p class="greeting">Hello, I'm</p>
+            <h1>Shivam Kumar Arya</h1>
+            <h2>Computer Science Student & <span>Developer</span></h2>
+
+            <p class="hero-text">
+                I am a Computer Science student interested in web development,
+                programming, data science and new technologies.
+                I enjoy learning new skills and building practical projects.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn">View My Projects</a>
+                <a href="#contact" class="btn btn-outline">Contact Me</a>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <img src="profile.jpeg" alt="My Profile Photo" class="profile-photo">
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+        <h2 class="section-title">About <span>Me</span></h2>
+
+        <div class="about-card">
+            <p>
+                I am pursuing a B.Tech in Computer Science with a focus on
+                Data Science and Artificial Intelligence. I have an interest
+                in programming, web technologies, databases and problem-solving.
+                I am continuously improving my technical knowledge through
+                coursework and practical projects.
+            </p>
+        </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="section">
+        <h2 class="section-title">My <span>Education</span></h2>
+
+        <div class="education-card">
+            <h3>B.Tech – Computer Science</h3>
+            <p>Data Science and Artificial Intelligence</p>
+            <p>Shri Ramswaroop Memorial University</p>
+            <p>2024 – Present</p>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+        <h2 class="section-title">My <span>Skills</span></h2>
+
+        <div class="skills-container">
+            <div class="skill-card">HTML</div>
+            <div class="skill-card">CSS</div>
+            <div class="skill-card">JavaScript</div>
+            <div class="skill-card">Java</div>
+            <div class="skill-card">Python</div>
+            <div class="skill-card">SQL / MySQL</div>
+            <div class="skill-card">Data Science</div>
+            <div class="skill-card">Git & GitHub</div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+        <h2 class="section-title">My <span>Projects</span></h2>
+
+        <div class="projects-container">
+
+            <div class="project-card">
+                <h3>Student Registration System</h3>
+                <p>
+                    A registration system created using Java and MySQL
+                    to store and manage student information.
+                </p>
+                <span class="tech">Java • MySQL</span>
+            </div>
+
+            <div class="project-card">
+                <h3>Student Data Analysis</h3>
+                <p>
+                    A data analysis project to study student marks,
+                    calculate results, and visualize performance.
+                </p>
+                <span class="tech">Python • Data Analysis</span>
+            </div>
+
+            <div class="project-card">
+                <h3>Personal Portfolio</h3>
+                <p>
+                    A responsive personal website showcasing my profile,
+                    education, technical skills and projects.
+                </p>
+                <span class="tech">HTML • CSS • JavaScript</span>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+        <h2 class="section-title">Contact <span>Me</span></h2>
+
+        <div class="contact-container">
+            <p>Have a project or opportunity? Feel free to contact me.</p>
+
+            <form id="contactForm">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" placeholder="Your Message" required></textarea>
+
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+
+            <p id="formStatus" aria-live="polite"></p>
+
+            <div class="social-links">
+                <a href="https://github.com/shivamarya5084-svg" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p><span id="year"></span> Shivam Kumar Arya </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
